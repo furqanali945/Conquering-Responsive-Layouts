@@ -22,3 +22,11 @@ It's all about making responsive layouts.
 - I have added an extra div for the background so that it can be full-width. Also, set the container max-width to be 750px to lock it.
 - On the bottom text I have wrap it in div and set max-width to be 750px so it is locked as per the top div.
 - Also, added padding to both the divs so that they don't stick to the screen on small devices.
+
+## Challenege 3
+
+- Based on the provided figma design https://www.figma.com/file/dGPcL6Ym2avOt4736aHb2B/conquer-responsive-layout-week-1-final-challenge?node-id=0%3A1. Implement everything we have learn in the first week.
+
+## Solution 3
+
+I have developed the section based on the provided design. Also, utilize the topics we have covered in the first week such as rem, em, max-width, vh, media queries etc.
