@@ -1,7 +1,6 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
-
-* {
+*,
+::before,
+::after {
   box-sizing: border-box;
 }
 body {
@@ -10,9 +9,7 @@ body {
 }
 .hero-main {
   background-color: #23424A;
-  display: flex;
   color: #fff;
-  align-items: center;
 }
 
 .hero-main .container {
@@ -54,6 +51,11 @@ a.btn-hero {
   border-radius: 2rem;
   margin-top: 1.5rem;
   font-weight: 700;
+}
+a.btn-hero:hover,
+a.btn-hero:focus,
+a.btn-hero:visited{
+  opacity: 0.9;
 }
 
 @media screen and (max-width: 768px) {
