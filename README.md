@@ -30,3 +30,16 @@ It's all about making responsive layouts.
 ## Solution 3
 
 I have developed the section based on the provided design. Also, utilize the topics we have covered in the first week such as rem, em, max-width, vh, media queries etc.
+
+## Challenge 1 Flexbox
+
+- The headings in the first row must be a different color
+- The two .col at the bottom must go next to one another
+- The section at the bottom should have a dark background color and a different color of text.
+- I've removed the "gap" that I created, so you'll have to add it back in
+
+## Solution 1 Flexbox
+
+- To set .col after one another I have set the main row as flex.
+- Also, to set background I have used a wrapper div on the section as main div.
+- I have made the gap between .col using sibling selectors as gap is not yet supported completely on old browsers.
